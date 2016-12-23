@@ -12,7 +12,7 @@ class Moses < Formula
 
   resource 'sample-models' do
     url 'http://www.statmt.org/moses/download/sample-models.tgz'
-    sha1 '33e8641cc30cac6eec9bc3ee77c3c60409c2b47e'
+    sha256 '8f5c570dc1b2875d653feba9a4b23a4b24e3e713638a212196f9a5e93065c59d'
   end
 
   def install

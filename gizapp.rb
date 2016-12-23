@@ -1,9 +1,8 @@
 require 'formula'
 
 class Gizapp < Formula
-  homepage 'https://code.google.com/p/giza-pp/'
-  url 'https://giza-pp.googlecode.com/files/giza-pp-v1.0.7.tar.gz'
-  sha1 'a808248127d91f12a8513bfd4b4e06c0d7ef1e48'
+  homepage 'https://github.com/moses-smt/giza-pp'
+  head 'https://github.com/moses-smt/giza-pp.git'
 
   def install
     system 'make'

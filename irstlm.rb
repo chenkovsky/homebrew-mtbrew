@@ -1,9 +1,8 @@
 require 'formula'
 
 class Irstlm < Formula
-  homepage 'https://sourceforge.net/projects/irstlm/'
-  url 'https://downloads.sourceforge.net/project/irstlm/irstlm/irstlm-5.80/irstlm-5.80.03.tgz'
-  sha1 'd92d048b924fde228811c81c030bf99e0ae832a9'
+  homepage 'https://github.com/irstlm-team/irstlm'
+  head 'https://github.com/irstlm-team/irstlm.git'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build

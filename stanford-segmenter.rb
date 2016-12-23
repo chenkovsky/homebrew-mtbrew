@@ -2,9 +2,9 @@ require 'formula'
 
 class StanfordSegmenter < Formula
   homepage 'http://nlp.stanford.edu/software/segmenter.shtml'
-  url 'http://nlp.stanford.edu/software/stanford-segmenter-2014-06-16.zip'
-  sha1 '5cc5c30a238301d9648bf8ba329a6f73831bdb36'
-  version '20140616'
+  url 'http://nlp.stanford.edu/software/stanford-segmenter-2015-12-09.zip'
+  sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+  version '20151209'
 
   def install
     libexec.install Dir['*']
