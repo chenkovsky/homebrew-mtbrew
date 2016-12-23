@@ -3,7 +3,7 @@ require 'formula'
 class Srilm < Formula
   homepage 'http://www.speech.sri.com/projects/srilm/'
   url "file://#{HOMEBREW_CACHE}/srilm-1.7.2.tgz"
-  sha256 'fb7e5f367fd2c6711852debe253b618043c9bf742e6452db5c49b10642d4e611'
+  sha256 'a528a778f881c679233f94d7b26d6f795129fa6009b32305c8ce769f66e223b4'
 
   depends_on 'homebrew/science/liblbfgs' => :optional
 
